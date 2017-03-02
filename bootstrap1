@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title> Album Page </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+ </head>
+ 
+ 
+ <body>
+     
+  <header> 
+    <img src="http://www.placehold.it/450x450" class="img-circle" alt="">
+  
+   <h1> Tusk </h1>
+   <p>
+    <a href="https://en.wikipedia.org/wiki/Tusk_(album)"> Fleetwood Mac</a>
+   </p>
+   <div>
+    October 12, 1979
+   </div>
+  </header>
+  <section>
+   <h2> Band members and Producers </h2>
+    <ul class="italic bold">
+     <li>Lindsey Buckingham</li>
+     <li>Mick Fleetwood</li>
+     <li>Christine</li>
+     <li>John McVie</li>
+     <li>Steve Nicks</li>
+    </ul>
+  </section>  
+    <div class="table-responsive">
+        
+       <table border="1" width="100%" class="table table-striped">
+        <caption> <h2> Tracks </h2> </caption>
+         <thead>
+            <tr>
+              <th>Track #</th>
+              <th>Track Title</th>
+              <th>Track Length</th>
+                
+            </tr>
+         </thead> 
+         <tbody>
+             <tr class="italic">
+              <td>1</td>
+              <td>Honey Hi</td>
+              <td>2:43</td>
+             </tr> 
+             <tr class="italic">
+              <td>2</td>
+              <td>Beautiful Child</td>
+              <td>5:23</td>
+             </tr>
+             <tr class="italic">
+              <td>3</td>
+              <td>Walk a Thin Line</td>
+              <td>3:48</td>
+             </tr>
+             <tr class="italic">
+              <td>4</td>
+              <td>Tusk</td>
+              <td>3:30</td>
+             </tr> 
+             <tr class="italic">
+              <td>5</td>
+              <td>Never Forget</td>
+              <td>3:44</td>
+             </tr> 
+         </tbody>
+        </table> 
+        
+    </div>
+    
+    <!--JS-->
+    <script type="text/javascript" src="css/bootstrap/js/jquery.js"></script>
+    <script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+    
+  </body>
+ </html> 
